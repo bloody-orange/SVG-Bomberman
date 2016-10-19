@@ -1,0 +1,26 @@
+<svg width="37" height="37" xmlns="http://www.w3.org/2000/svg">
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+    <symbol id="box">
+        <title>Box</title>
+        <rect fill="#191919" stroke-width="NaN" x="7.70101" y="20.52265" width="27.74362" height="11.8407" id="svg_46" transform="rotate(9.332454681396484 21.572818756103512,26.44300270080567) " stroke="#191919"/>
+        <rect fill="#825a1b" stroke-width="2" x="2.13084" y="3.04235" width="31.56096" height="31.33308" id="svg_2" stroke="#332205"/>
+        <line fill="none" stroke-opacity="null" fill-opacity="null" x1="24.50076" y1="2.2068" x2="24.65268" y2="34.60331" id="svg_38" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" stroke-opacity="null" fill-opacity="null" x1="28.94436" y1="2.28276" x2="29.02032" y2="34.67926" id="svg_39" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line transform="rotate(-1 18.101213455200526,18.405050277710107) " fill="none" stroke-width="2" x1="2.09611" y1="33.59716" x2="34.10632" y2="3.21294" id="svg_20" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="10.48633" y1="34.94512" x2="10.75218" y2="2.35872" id="svg_32" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" stroke-opacity="null" fill-opacity="null" x1="20.20908" y1="2.2068" x2="20.1711" y2="35.21098" id="svg_37" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" fill-opacity="null" x1="15.57558" y1="2.13084" x2="15.65154" y2="35.21098" id="svg_35" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="2.2068" y1="9.27098" x2="5.35909" y2="9.30896" id="svg_28" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="5.51101" y1="2.2068" x2="5.13122" y2="34.7932" id="svg_30" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" stroke="#332205" x1="5.1692" y1="26.2858" x2="10.60027" y2="26.2858" id="svg_31" stroke-linejoin="null" stroke-linecap="null"/>
+        <line fill="none" x1="10.94208" y1="16.25921" x2="15.23376" y2="16.22123" id="svg_33" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="15.68952" y1="30.42556" x2="19.9812" y2="30.38758" id="svg_40" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="20.39897" y1="3.8779" x2="24.69066" y2="3.83992" id="svg_41" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="24.72864" y1="20.24706" x2="29.02032" y2="20.20908" id="svg_42" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <line fill="none" x1="29.28618" y1="30.08375" x2="33.57786" y2="30.04577" id="svg_43" stroke-linejoin="null" stroke-linecap="null" stroke="#332205"/>
+        <g transform="rotate(-45 18.187454223632812,18.38279342651367) " id="svg_3">
+            <rect fill="#7a3d00" stroke="#895d05" stroke-width="null" x="8.35076" y="14.90767" width="19.67338" height="6.95025" id="svg_7" stroke-linecap="null" stroke-linejoin="null"/>
+            <text fill="#cccccc" stroke="#a56e06" stroke-width="0" x="9.19359" y="19.76904" id="svg_10" font-size="5" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" opacity="0.75">Secret</text>
+        </g>
+    </symbol>
+</svg>

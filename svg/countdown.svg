@@ -1,0 +1,31 @@
+<svg width="159.99999999999997" height="70" xmlns="http://www.w3.org/2000/svg">
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+    <symbol id="countdownBoard">
+        <title>Layer 1</title>
+        <g id="svg_27">
+            <rect id="svg_3" height="47.16981" width="70.18868" y="11.41509" x="44.90566" stroke-width="3.5" stroke="#000000" fill="#72470b"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="59.57143" x2="60" y1="11.85714" x1="59.71429" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="58.14286" x2="78.85714" y1="13" x1="79.14286" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="58.14286" x2="97.14286" y1="13" x1="97.71429" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="45.85714" x2="96.57143" y1="45.57143" x1="80" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="25.85714" x2="78.57143" y1="24.42857" x1="60" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+            <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="37.57143" x2="58.85714" y1="44.14286" x1="45.71429" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" fill="none"/>
+            <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="25.85714" x2="114.57143" y1="30.42857" x1="97.42857" fill-opacity="null" stroke-opacity="null" stroke-width="3.5" stroke="#000000" fill="none"/>
+        </g>
+      </symbol>
+    <symbol id="countdown1">
+        <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="47" id="svg_29" y="47.58229" x="65.89882" stroke-width="0" stroke="#000" fill="#c60000">1</text>
+    </symbol>
+    <symbol id="countdown2">
+        <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="47" id="svg_28" y="47.58229" x="65.89882" stroke-width="0" stroke="#000" fill="#c60000">2</text>
+    </symbol>
+    <symbol id="countdown3">
+        <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="47" id="svg_2" y="47.58229" x="65.89882" stroke-width="0" stroke="#000" fill="#c60000">3</text>
+    </symbol>
+    <symbol id="countdownGo">
+        <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="47" id="svg_30" y="47.58229" x="51.80507" stroke-width="0" stroke="#000" fill="#c60000">GO</text>
+    </symbol>
+
+
+</svg>

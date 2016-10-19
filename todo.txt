@@ -1,0 +1,22 @@
+moar powerups
+svg for all powerups and confused
+main menu
+options menu
+load screen ~ half done
+loading -> https://en.wikipedia.org/wiki/Asynchronous_semaphore
+help
+mute sound/effects seperatly
+win condition?
+
+online multiplayer?
+
+
+<<<< bugs >>>>
+music names wrong
+
+---- done ----
+controls menu xbox 2-4?
+"now playing"
+fps display
+pause button
+mute button

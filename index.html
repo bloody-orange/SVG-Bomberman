@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="base.css">
+    <title>Bomberman</title>
+</head>
+<body>
+
+    <svg id="defs-only" xmlns="http://www.w3.org/2000/svg">
+
+        <defs>
+            <g>
+                <!--
+                <image id="pDown" xlink:href="img/player.png" x="0" y="0"width="37" height="37"></image>
+                <image id="pUp" xlink:href="img/player.png" x="0" y="0" width="37" height="37"></image>
+                <image id="pRight" xlink:href="img/player.png" x="0" y="0" width="37" height="37"></image>
+                <image id="pLeft" xlink:href="img/player.png" x="0" y="0" width="37" height="37"></image>
+                <image id="box" xlink:href="img/box.png" x="0" y="0" width="37" height="37"></image>
+                <image id="bomb" xlink:href="img/bomb.png" x="0" y="0" width="37" height="37"></image>
+                -->
+                <image id="explosion" xlink:href="img/explosion.png" x="0" y="0" width="37" height="37"></image>
+
+                <!--<image id="stone" xlink:href="img/stone.png" x="0" y="0" width="37" height="37"></image>
+                <image id="powerupBomb" xlink:href="img/powerupBomb.png" x="0" y="0" width="37" height="37"></image>-->
+
+                <image id="powerupSpeed" xlink:href="img/powerupSpeed.png" x="0" y="0" width="37" height="37"></image>
+                <image id="powerupPower" xlink:href="img/powerupPower.png" x="0" y="0" width="37" height="37"></image>
+            </g>
+        </defs>
+
+    </svg>
+
+    <svg id="playground" viewBox="0 0 700 700">
+
+        <rect id="outerBg" x="0" y="0" width="700" height="700" fill="#79351C"></rect>
+        <rect  id="innerBg" x="45" y="45" width="610" height="610" fill="#312a21"></rect>
+
+        <g id="blocks"></g>
+        <g id="players"></g>
+        <g id="explosions"></g>
+        <g id="powerups"></g>
+
+        <g id="scores">
+            <rect x="85" y="10" rx="5" ry="5" width="50" height="30" fill="#452920"></rect>
+            <text id="scoreLabel1" x="50" y="30" fill="black" >P1: </text>
+            <text id="score1" x="90" y="30" fill="white" >-</text>
+            <rect x="259" y="10" rx="5" ry="5" width="50" height="30" fill="#452920"></rect>
+            <text id="scoreLabel2" x="224" y="30" fill="black" >P2: </text>
+            <text id="score2" x="264" y="30" fill="white" >-</text>
+            <rect x="432" y="10" rx="5" ry="5" width="50" height="30" fill="#452920"></rect>
+            <text id="scoreLabel3" x="397" y="30" fill="black" >P3: </text>
+            <text id="score3" x="437" y="30" fill="white" >-</text>
+            <rect x="605" y="10" rx="5" ry="5" width="50" height="30" fill="#452920"></rect>
+            <text id="scoreLabel4" x="570" y="30" fill="black" >P4: </text>
+            <text id="score4" x="610" y="30" fill="white" >-</text>
+
+        </g>
+
+        <g id="fpsCounter">
+            <rect x="98" y="660" rx="5" ry="5" width="80" height="30" fill="#452920"></rect>
+            <text id="fpsLabel" x="50" y="680" fill="black" >FPS:</text>
+            <text id="fpsText" x="103" y="680" fill="white" ></text>
+        </g>
+
+        <clipPath id="clipMusic">
+            <rect x="425" y="660" rx="5" ry="5" width="225" height="30"></rect>
+        </clipPath>
+
+        <text id="musicLabel" x="300" y="680" fill="black" >Now Playing:</text>
+        <g id="musicDisplay" clip-path="url(#clipMusic)">
+            <rect x="425" y="660" rx="5" ry="5" width="225" height="30" fill="#452920"></rect>
+            <text id="musicText" x="430" y="680" fill="white" ></text>
+        </g>
+
+        <g id="icons">
+            <svg viewBox="0 0 50 50" width="33" height="33" x="661" y="50">
+                <use id="settingsIcon" xlink:href="svg/icons.svg#settings"></use>
+            </svg>
+            <svg viewBox="0 0 50 50" width="33" height="33" x="661" y="100">
+                <use id="soundIcon" xlink:href="svg/icons.svg#soundPlayingIcon"></use>
+            </svg>
+        </g>
+
+        <g id="menus"></g>
+
+
+    </svg>
+
+    <div class="help">
+        <h2>Controls (scroll down):</h2>
+        <table class="controls">
+            <tr>
+                <th><strong>player</strong></th>
+                <th><strong>move</strong></th>
+                <th><strong>bomb</strong></th>
+            </tr>
+            <tr>
+                <td>p1</td>
+                <td>w a s d</td>
+                <td>left shift</td>
+            </tr>
+            <tr>
+                <td>p2</td>
+                <td>arrow keys</td>
+                <td>enter</td>
+            </tr>
+            <tr>
+                <td>p3</td>
+                <td>j k l i</td>
+                <td>space</td>
+            </tr>
+            <tr>
+                <td>p4</td>
+                <td>numpad</td>
+                <td>numpad 0</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+    <!-- iOS svgs: <script src="svg4everybody.js"></script> -->
+</body>
+</html>
+

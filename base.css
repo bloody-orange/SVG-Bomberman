@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+
+#defs-only {
+    display: none;
+}
+
+#playground {
+    margin: 0;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.pUse {
+    transform-origin: 19px 19px;
+    -webkit-transform-origin: 19px 19px;
+    -moz-transform-origin: 19px 19px;
+}
+
+text {
+    font-family: "Courier New", monospace;
+}
+
+#musicText {
+    white-space: pre; /* avoid merging of whitespaces */
+}
+
+progress {
+    width: 56%;
+    height: 3%;
+    top: 55%;
+    left: 22%;
+    position: absolute;
+    z-index: 101;
+    -webkit-appearance: progress-bar;
+    box-sizing: border-box;
+    display: inline-block;
+    color: saddlebrown;
+    background-color: brown;
+
+}
+
+.help {
+    margin: 5px;
+    position: absolute;
+    bottom: -220px;
+}
+
+.controls {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    border-bottom: 3px solid black;
+}
+
+
+/*
+progress::-webkit-progress-bar {
+    background-color: #555;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-value {
+    background-image:
+            -webkit-linear-gradient(315deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0,0, 0, .1) 66%, transparent 66%),
+            -webkit-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .25)),
+            -webkit-linear-gradient(left, #09c, #f44);
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+According to the validator, this is invalid css, so I commented it out. No styling for progress :(
+*/
