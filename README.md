@@ -9,3 +9,5 @@ It was originally meant as a semester project for my university web class, but e
 and I had a ton of fun just messing around with the possibilities of the web (like the Audio API for example). 
 
 Yes, JQuery would've probably come in handy, but it still worked out very well in my opinion, even though the code is a mess.
+
+This also was also created before I started using VCS', which is why there's no commit history.
